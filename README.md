@@ -27,7 +27,7 @@ Extract:
 
     binwalk -e filename
     
-## Remove install files
+### Remove install files
 
     rm master.zip
     sudo rm binwalk-master -fr
