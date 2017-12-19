@@ -26,3 +26,8 @@ File Info:
 Extract:
 
     binwalk -e filename
+    
+## Remove install files
+
+    rm master.zip
+    sudo rm binwalk-master -fr
