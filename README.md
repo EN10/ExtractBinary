@@ -5,9 +5,10 @@ Look for strings in the binary:
 
     strings filename
     
-still gibberish, possible compressed or encrypted.
+still gibberish, possibly compressed or encrypted try binwalk.
 
 ### binwalk
+Install:
 
     wget https://github.com/devttys0/binwalk/archive/master.zip
     unzip master.zip
@@ -27,7 +28,7 @@ Extract:
 
     binwalk -e filename
     
-### Remove install files
+Remove install files:
 
     rm master.zip
     sudo rm binwalk-master -fr
