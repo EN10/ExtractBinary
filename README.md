@@ -13,7 +13,11 @@ still gibberish, possible compressed or encrypted.
     unzip master.zip
     (cd binwalk-master && sudo python setup.py uninstall && sudo python setup.py install)
 
-[install](https://github.com/ReFirmLabs/binwalk/wiki/Quick-Start-Guide)
+For Extracting:
+
+    sudo ./binwalk-master/deps.sh
+
+[Offical Quick Start](https://github.com/ReFirmLabs/binwalk/wiki/Quick-Start-Guide)
 
 File Info:
 
